@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScrollView"></activity>
-        <activity android:name=".Linear" />
-        <activity android:name=".Relative" />
-        <activity android:name=".Button" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Image">
+        <activity android:name=".ScrollViewActivity"></activity>
+        <activity android:name=".LinearAcitivy" />
+        <activity android:name=".RelativeActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
