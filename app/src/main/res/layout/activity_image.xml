@@ -7,6 +7,8 @@
     android:orientation="vertical"
     android:layout_margin="10dp"
     tools:context=".Image">
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -25,6 +27,14 @@
                 android:paddingTop="15dp"
                 android:layout_marginLeft="200dp"
                 android:src="@drawable/meme" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"/>
+
         </LinearLayout>
     </ScrollView>
 
