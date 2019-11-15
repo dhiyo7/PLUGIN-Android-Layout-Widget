@@ -23,9 +23,7 @@ public class ButtonActivity extends AppCompatActivity {
         aksiButton();
     }
 
-    private void findView() {
-        btnNormal = findViewById(R.id.btnNormal);
-    }
+    private void findView() {btnNormal = findViewById(R.id.btnNormal);}
 
     private void aksiButton() {
         btnNormal.setOnClickListener(new View.OnClickListener() {
